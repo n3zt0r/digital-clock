@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <title>Digital Clock</title>
+</head>
+
+<body>
+  <div id="container">
+    <h1>Digital Clock</h1>
+    <h2 id="clock">00:00:00</h2>
+    <button id="pause-button" class="pause" onclick="pauseClock()">
+      <!--------------- Pause button SVG ---------------->
+      <svg height="32px" width="24px">
+        <rect height="32" width="8" />
+        <rect height="32" width="8" x="16" />
+      </svg>
+      <!------------------------------------------------->
+    </button>
+
+    <footer>
+      <p>© Nestor López, 2023</p>
+    </footer>
+  </div>
+  <script src="clock.js"></script>
+</body>
+
+</html>
